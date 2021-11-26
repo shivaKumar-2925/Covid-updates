@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+width: 100vw;
+height: 100vh;
+
+}
+.head{
+width: 100%;
+padding: 12px 0px;
+text-align: center;
+background-color: rgba(8, 54, 54, 0.6);
+color: white;
+}
+.main{
+  width:100vw;
+
+}
+.mainTable{
+  margin:20px auto;
+  width: 80%;
+ text-align: center;
+}
+.headTable{
+  background-color: rgba(0, 0, 0);
+ 
+}
+.headTable th{
+  color: white;
+font-size: 20px;
+font-weight: bolder;
+padding:12px ;
+border: none;
+}
+.tbBody tr:nth-child(odd){
+  background-color: rgba(138, 135, 135,0.3);
+}
+.tbBody tr:nth-child(even){
+  background-color: rgba(138, 135, 135,0.8);
+}
+.tbBody{
+  margin-bottom: 20px ;
+}
+.tbBody td{
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+  padding:12px ;
+  border: none;
+  }
+  .tbBody tr td:not(:nth-child(5)):hover{
+  background-color: rgba(0, 128, 0,0.3);
+  }
+  .tbBody tr td:nth-child(5):hover{
+    background-color: rgba(128, 9, 0, 0.3);
+    }
+
+    .tbFooter{
+      width: 100vw;
+      padding: 12px 0px;
+      text-align: center;
+      background-color: rgba(8, 54, 54, 0.6);
+      color: white;
+    }
